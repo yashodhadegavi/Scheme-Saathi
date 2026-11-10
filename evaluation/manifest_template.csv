@@ -1,0 +1,4 @@
+audio_path,language,speaker,condition,reference_text,asked_slot,expected_json
+audio/en_age_01.wav,en-IN,me,quiet,I am thirty five years old,age,35
+audio/hi_bank_01.wav,hi-IN,me,quiet,हाँ मेरा बैंक खाता है,has_bank_account,true
+audio/te_land_01.wav,te-IN,me,noisy,అవును మాకు భూమి ఉంది,owns_farmland,true

@@ -1,0 +1,79 @@
+language,asked_slot,utterance,expected_json
+en-IN,age,thirty five,35
+en-IN,age,I am 42 years old,42
+en-IN,age,im twenty eight,28
+en-IN,age,forty,40
+en-IN,age,I'm not sure,"""unsure"""
+en-IN,has_bank_account,yes I do,true
+en-IN,has_bank_account,no I don't have,false
+en-IN,owns_farmland,yeah we own two acres,true
+en-IN,owns_farmland,not really,false
+en-IN,govt_pension_10k,I don't know,"""unsure"""
+en-IN,self_income_tax_payer,never,false
+en-IN,family_income_tax_payer,my husband pays,true
+en-IN,free,I am 35 years old and I have 2 acres of land,"{""age"": 35, ""owns_farmland"": true}"
+en-IN,free,I have a bank account,"{""has_bank_account"": true}"
+en-IN,free,I work on rented land,{}
+hi-IN,age,पैंतीस,35
+hi-IN,age,मेरी उम्र 42 साल है,42
+hi-IN,age,उन्तालीस,null
+hi-IN,age,चालीस साल,40
+hi-IN,has_bank_account,हाँ है,true
+hi-IN,has_bank_account,नहीं है,false
+hi-IN,owns_farmland,हां जी,true
+hi-IN,owns_farmland,नहीं,false
+hi-IN,govt_pension_10k,पता नहीं,"""unsure"""
+hi-IN,self_income_tax_payer,haan,true
+hi-IN,self_income_tax_payer,nahi,false
+hi-IN,free,मेरे पास दो एकड़ खेत है,"{""owns_farmland"": true}"
+hi-IN,free,मेरे पास ज़मीन नहीं है,{}
+te-IN,age,ముప్పై ఐదు,35
+te-IN,age,నా వయసు 42,42
+te-IN,age,నలభై ఏళ్లు,40
+te-IN,age,తెలియదు,"""unsure"""
+te-IN,has_bank_account,అవును ఉంది,true
+te-IN,has_bank_account,లేదండి,false
+te-IN,owns_farmland,అవునండి,true
+te-IN,owns_farmland,కాదు,false
+te-IN,govt_pension_10k,తెలియదండి,"""unsure"""
+te-IN,self_income_tax_payer,లేదు,false
+te-IN,self_income_tax_payer,avunu,true
+te-IN,free,"నాకు రెండు ఎకరాల పొలం ఉంది, నా వయసు 40 సంవత్సరాలు","{""age"": 40, ""owns_farmland"": true}"
+te-IN,free,నాకు భూమి లేదు,{}
+kn-IN,age,ಮೂವತ್ತೈದು,35
+kn-IN,age,ನನ್ನ ವಯಸ್ಸು 42,42
+kn-IN,age,ನಲವತ್ತು ವರ್ಷ,40
+kn-IN,age,ಇಪ್ಪತ್ತೆಂಟು,28
+kn-IN,age,ಗೊತ್ತಿಲ್ಲ,"""unsure"""
+kn-IN,has_bank_account,ಹೌದು ಇದೆ,true
+kn-IN,has_bank_account,ಇಲ್ಲ,false
+kn-IN,owns_farmland,ಹೌದು,true
+kn-IN,owns_farmland,ಇಲ್ಲರೀ,false
+kn-IN,govt_pension_10k,ಗೊತ್ತಿಲ್ಲ,"""unsure"""
+kn-IN,self_income_tax_payer,ಇಲ್ಲ,false
+kn-IN,self_income_tax_payer,houdu,true
+kn-IN,self_income_tax_payer,ಇಲ್ಲಿ,null
+kn-IN,free,"ನನಗೆ ಎರಡು ಎಕರೆ ಜಮೀನು ಇದೆ, ನನ್ನ ವಯಸ್ಸು 40 ವರ್ಷ","{""age"": 40, ""owns_farmland"": true}"
+kn-IN,free,ನನಗೆ ಜಮೀನು ಇಲ್ಲ,{}
+kn-IN,free,ನಾನು ಗುತ್ತಿಗೆ ಜಮೀನು ಮಾಡುತ್ತೇನೆ,{}
+en-IN,annual_income,2 lakh,200000
+en-IN,annual_income,2.5 lakh,250000
+en-IN,annual_income,ten thousand a month,120000
+en-IN,annual_income,three,null
+en-IN,annual_income,"2,50,000",250000
+en-IN,marks_percent,sixty,60
+en-IN,marks_percent,72 percent,72
+en-IN,lives_in_city,no,false
+en-IN,free,I live in a village,"{""lives_in_city"": false}"
+hi-IN,annual_income,दो लाख,200000
+hi-IN,annual_income,बीस हज़ार महीने,240000
+hi-IN,marks_percent,साठ प्रतिशत,60
+hi-IN,free,मैं गाँव में रहता हूँ,"{""lives_in_city"": false}"
+te-IN,annual_income,రెండు లక్షలు,200000
+te-IN,annual_income,ఇరవై వేలు నెలకు,240000
+te-IN,marks_percent,అరవై శాతం,60
+te-IN,free,నేను పట్టణంలో ఉంటాను,"{""lives_in_city"": true}"
+kn-IN,annual_income,ಎರಡು ಲಕ್ಷ,200000
+kn-IN,annual_income,ಹತ್ತು ಸಾವಿರ ತಿಂಗಳಿಗೆ,120000
+kn-IN,marks_percent,ಅರವತ್ತು ಶೇಕಡಾ,60
+kn-IN,free,ನಾನು ಹಳ್ಳಿಯಲ್ಲಿ ವಾಸಿಸುತ್ತೇನೆ,"{""lives_in_city"": false}"
